@@ -163,9 +163,9 @@ def analyse():
 
 
 if __name__ == '__main__':
-    # download_summarization_model()
-    # download_classification_model()
-    # download_ner_model()
+    download_summarization_model()
+    download_classification_model()
+    download_ner_model()
 
     view.analyse_button.configure(command=analyse)
     view.run()

@@ -41,7 +41,7 @@ class View:
         """
         Disable maximise option.
         """
-        self.root.resizable(0, 0)
+        self.root.resizable(None, None)
 
         """
         Set icon.
